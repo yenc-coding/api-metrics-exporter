@@ -5,7 +5,7 @@ A robust, production-ready metrics collection library for Laravel 9+ APIs. Effor
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sidcorp-resource/api-metrics-exporter.svg)](https://packagist.org/packages/sidcorp-resource/api-metrics-exporter)
 [![PHP Version Support](https://img.shields.io/packagist/php-v/sidcorp-resource/api-metrics-exporter.svg)](https://packagist.org/packages/sidcorp-resource/api-metrics-exporter)
 [![Laravel Version Support](https://img.shields.io/badge/laravel-%3E%3D9.0-red)](https://laravel.com/)
-[![License](https://img.shields.io/packagist/l/sidcorp-resource/api-metrics-exporter.svg)](https://github.com/sidcorp-resource/api-metrics-exporter/blob/main/LICENSE)
+[![License](https://img.shields.io/packagist/l/sidcorp-resource/api-metrics-exporter.svg)](LICENSE)
 
 ---
 
