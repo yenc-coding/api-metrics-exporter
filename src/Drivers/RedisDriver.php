@@ -51,15 +51,15 @@ class RedisDriver extends AbstractStorageDriver
 
             $rawClient = $connectionInstance->client();
 
-            if ($rawClient instanceof Redis) {
+            if ($rawClient instanceof \Redis) {
                 if (defined('\Redis::OPT_PREFIX')) {
-                    $rawClient->setOption(Redis::OPT_PREFIX, '');
+                    $rawClient->setOption(\Redis::OPT_PREFIX, '');
                 } else {
                     $rawClient->setOption(2, '');
                 }
             } elseif ( $rawClient instanceof \Predis\Client) {
                 $options = $rawClient->getOptions();
-                if (isset($options->prefix)) {
+                if (isset($options->prefix)) { 
                     $options->prefix->setPrefix('');
                 }
             }
